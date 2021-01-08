@@ -1,0 +1,232 @@
+04-Jan-2021 09:29:44.109 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 09:32:35.660 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 10:03:46.320 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 10:32:54.750 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 10:33:58.215 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 10:35:18.245 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 10:37:06.775 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 10:38:44.443 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 10:44:56.722 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 10:45:13.696 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [6] in the jsp file: [/InvalidUser.jsp]
+Syntax error, insert ")" to complete MethodInvocation
+3: <!DOCTYPE html>
+4: <html>
+5: <%=
+6: 	String username=request.getUserPrincipal().getName();
+7: %>
+8: <body>
+9: 	<h1><%=username%> you are invalid </h1>
+
+
+An error occurred at line: [6] in the jsp file: [/InvalidUser.jsp]
+Syntax error, insert ";" to complete Statement
+3: <!DOCTYPE html>
+4: <html>
+5: <%=
+6: 	String username=request.getUserPrincipal().getName();
+7: %>
+8: <body>
+9: 	<h1><%=username%> you are invalid </h1>
+
+
+An error occurred at line: [6] in the jsp file: [/InvalidUser.jsp]
+String cannot be resolved to a variable
+3: <!DOCTYPE html>
+4: <html>
+5: <%=
+6: 	String username=request.getUserPrincipal().getName();
+7: %>
+8: <body>
+9: 	<h1><%=username%> you are invalid </h1>
+
+
+An error occurred at line: [6] in the jsp file: [/InvalidUser.jsp]
+username cannot be resolved to a variable
+3: <!DOCTYPE html>
+4: <html>
+5: <%=
+6: 	String username=request.getUserPrincipal().getName();
+7: %>
+8: <body>
+9: 	<h1><%=username%> you are invalid </h1>
+
+
+An error occurred at line: [6] in the jsp file: [/InvalidUser.jsp]
+Syntax error on token ")", delete this token
+3: <!DOCTYPE html>
+4: <html>
+5: <%=
+6: 	String username=request.getUserPrincipal().getName();
+7: %>
+8: <body>
+9: 	<h1><%=username%> you are invalid </h1>
+
+
+An error occurred at line: [9] in the jsp file: [/InvalidUser.jsp]
+username cannot be resolved to a variable
+6: 	String username=request.getUserPrincipal().getName();
+7: %>
+8: <body>
+9: 	<h1><%=username%> you are invalid </h1>
+10: </body>
+11: </html>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [6] in the jsp file: [/InvalidUser.jsp]
+Syntax error, insert ")" to complete MethodInvocation
+3: <!DOCTYPE html>
+4: <html>
+5: <%=
+6: 	String username=request.getUserPrincipal().getName();
+7: %>
+8: <body>
+9: 	<h1><%=username%> you are invalid </h1>
+
+
+An error occurred at line: [6] in the jsp file: [/InvalidUser.jsp]
+Syntax error, insert ";" to complete Statement
+3: <!DOCTYPE html>
+4: <html>
+5: <%=
+6: 	String username=request.getUserPrincipal().getName();
+7: %>
+8: <body>
+9: 	<h1><%=username%> you are invalid </h1>
+
+
+An error occurred at line: [6] in the jsp file: [/InvalidUser.jsp]
+String cannot be resolved to a variable
+3: <!DOCTYPE html>
+4: <html>
+5: <%=
+6: 	String username=request.getUserPrincipal().getName();
+7: %>
+8: <body>
+9: 	<h1><%=username%> you are invalid </h1>
+
+
+An error occurred at line: [6] in the jsp file: [/InvalidUser.jsp]
+username cannot be resolved to a variable
+3: <!DOCTYPE html>
+4: <html>
+5: <%=
+6: 	String username=request.getUserPrincipal().getName();
+7: %>
+8: <body>
+9: 	<h1><%=username%> you are invalid </h1>
+
+
+An error occurred at line: [6] in the jsp file: [/InvalidUser.jsp]
+Syntax error on token ")", delete this token
+3: <!DOCTYPE html>
+4: <html>
+5: <%=
+6: 	String username=request.getUserPrincipal().getName();
+7: %>
+8: <body>
+9: 	<h1><%=username%> you are invalid </h1>
+
+
+An error occurred at line: [9] in the jsp file: [/InvalidUser.jsp]
+username cannot be resolved to a variable
+6: 	String username=request.getUserPrincipal().getName();
+7: %>
+8: <body>
+9: 	<h1><%=username%> you are invalid </h1>
+10: </body>
+11: </html>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:669)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+04-Jan-2021 10:47:48.908 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 11:22:39.552 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 11:23:49.238 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 11:29:36.308 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 11:47:23.500 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 11:49:18.234 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 11:50:20.409 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 11:51:16.777 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 11:53:49.177 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 11:55:59.671 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 11:57:46.157 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 11:59:50.994 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 12:01:49.666 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 12:03:45.030 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 12:05:58.332 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 12:07:39.167 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 12:08:22.343 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 12:34:52.425 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 12:48:47.923 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 12:50:47.703 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 12:54:33.816 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 12:59:48.642 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 13:03:38.717 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 13:07:36.921 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 13:09:20.763 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 13:16:43.284 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 13:19:30.192 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 18:21:42.929 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 18:33:53.491 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 18:37:07.345 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 18:37:51.689 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 18:39:12.948 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 19:13:05.454 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 19:18:26.441 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 19:26:56.560 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 19:28:44.594 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 19:29:37.402 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 19:33:33.645 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 19:41:35.521 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 19:43:43.944 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 19:56:49.369 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 20:01:05.861 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 20:03:20.679 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 20:05:31.218 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 20:07:19.316 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 20:10:32.270 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 20:16:09.482 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 20:17:43.570 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 20:18:45.302 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 20:19:20.292 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 20:22:21.219 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 20:23:35.136 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 20:27:48.325 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+04-Jan-2021 20:32:14.581 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.

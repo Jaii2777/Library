@@ -1,0 +1,2 @@
+28-Dec-2020 18:42:05.531 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+28-Dec-2020 18:45:59.610 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.

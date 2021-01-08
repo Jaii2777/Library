@@ -1,0 +1,13 @@
+{"stat":"OK","response":
+				{
+					"result":"auth",
+					"devices":
+					[
+						{"number":"+XX XXXXX X0784",
+						"capabilities":["auto","push","sms","mobile_otp"],
+						"name":"","display_name":"Android (+XX XXXXX X0784)","type":"phone","device":"DP8FFR6H2LVVR3TF2SZD"
+						}
+					],
+					"status_msg":"Account is active"
+			}
+}

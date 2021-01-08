@@ -1,0 +1,362 @@
+06-Jan-2021 01:04:36.111 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-80"]
+06-Jan-2021 01:04:36.483 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Jan-2021 01:04:36.608 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-80"]
+06-Jan-2021 01:04:36.618 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-80"]
+06-Jan-2021 10:23:20.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.60
+06-Jan-2021 10:23:20.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 12 2020 17:31:55 UTC
+06-Jan-2021 10:23:20.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.60.0
+06-Jan-2021 10:23:20.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+06-Jan-2021 10:23:20.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Jan-2021 10:23:20.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jan-2021 10:23:20.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_271
+06-Jan-2021 10:23:20.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_271-b09
+06-Jan-2021 10:23:20.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Jan-2021 10:23:20.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 10:23:20.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 10:23:20.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 10:23:20.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 10:23:20.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 8.5\temp
+06-Jan-2021 10:23:20.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jan-2021 10:23:20.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 8.5\conf\logging.properties
+06-Jan-2021 10:23:20.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.auth.login.config=C:\Program Files\Apache Software Foundation\Tomcat 8.5\conf\jaas.conf
+06-Jan-2021 10:23:20.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+06-Jan-2021 10:23:20.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+06-Jan-2021 10:23:20.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+06-Jan-2021 10:23:20.914 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+06-Jan-2021 10:23:20.914 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 8.5\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jre1.8.0_271\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Geth;C:\Program Files\PuTTY\;H:\flutter\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\prave\AppData\Local\Microsoft\WindowsApps;C:\Users\prave\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\prave\AppData\Roaming\npm;.]
+06-Jan-2021 10:23:21.392 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+06-Jan-2021 10:23:21.899 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+06-Jan-2021 10:23:21.930 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1992 ms
+06-Jan-2021 10:23:21.997 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jan-2021 10:23:21.999 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.60
+06-Jan-2021 10:23:23.714 WARNING [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [user] used in an <auth-constraint> without being defined in a <security-role>
+06-Jan-2021 10:23:23.715 WARNING [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [admin] used in an <auth-constraint> without being defined in a <security-role>
+06-Jan-2021 10:23:23.795 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2021 10:23:23.915 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+06-Jan-2021 10:23:23.932 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2001 ms
+06-Jan-2021 10:26:41.321 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-80"]
+06-Jan-2021 10:26:41.677 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Jan-2021 10:26:41.710 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-80"]
+06-Jan-2021 10:26:41.716 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-80"]
+06-Jan-2021 10:26:48.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.60
+06-Jan-2021 10:26:48.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 12 2020 17:31:55 UTC
+06-Jan-2021 10:26:48.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.60.0
+06-Jan-2021 10:26:48.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+06-Jan-2021 10:26:48.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Jan-2021 10:26:48.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jan-2021 10:26:48.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_271
+06-Jan-2021 10:26:48.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_271-b09
+06-Jan-2021 10:26:48.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Jan-2021 10:26:48.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 10:26:48.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 10:26:48.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 10:26:48.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 10:26:48.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 8.5\temp
+06-Jan-2021 10:26:48.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jan-2021 10:26:48.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 8.5\conf\logging.properties
+06-Jan-2021 10:26:48.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.auth.login.config=C:\Program Files\Apache Software Foundation\Tomcat 8.5\conf\jaas.conf
+06-Jan-2021 10:26:48.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+06-Jan-2021 10:26:48.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+06-Jan-2021 10:26:48.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+06-Jan-2021 10:26:48.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+06-Jan-2021 10:26:48.120 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 8.5\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jre1.8.0_271\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Geth;C:\Program Files\PuTTY\;H:\flutter\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\prave\AppData\Local\Microsoft\WindowsApps;C:\Users\prave\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\prave\AppData\Roaming\npm;.]
+06-Jan-2021 10:26:48.515 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+06-Jan-2021 10:26:49.051 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+06-Jan-2021 10:26:49.083 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2017 ms
+06-Jan-2021 10:26:49.166 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jan-2021 10:26:49.168 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.60
+06-Jan-2021 10:26:51.237 WARNING [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [user] used in an <auth-constraint> without being defined in a <security-role>
+06-Jan-2021 10:26:51.238 WARNING [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [admin] used in an <auth-constraint> without being defined in a <security-role>
+06-Jan-2021 10:26:51.319 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2021 10:26:51.455 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+06-Jan-2021 10:26:51.472 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2385 ms
+06-Jan-2021 10:30:14.827 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-80"]
+06-Jan-2021 10:30:15.182 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Jan-2021 10:30:15.213 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-80"]
+06-Jan-2021 10:30:15.220 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-80"]
+06-Jan-2021 10:30:22.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.60
+06-Jan-2021 10:30:22.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 12 2020 17:31:55 UTC
+06-Jan-2021 10:30:22.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.60.0
+06-Jan-2021 10:30:22.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+06-Jan-2021 10:30:22.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Jan-2021 10:30:22.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jan-2021 10:30:22.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_271
+06-Jan-2021 10:30:22.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_271-b09
+06-Jan-2021 10:30:22.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Jan-2021 10:30:22.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 10:30:22.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 10:30:22.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 10:30:22.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 10:30:22.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 8.5\temp
+06-Jan-2021 10:30:22.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jan-2021 10:30:22.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 8.5\conf\logging.properties
+06-Jan-2021 10:30:22.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.auth.login.config=C:\Program Files\Apache Software Foundation\Tomcat 8.5\conf\jaas.conf
+06-Jan-2021 10:30:22.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+06-Jan-2021 10:30:22.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+06-Jan-2021 10:30:22.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+06-Jan-2021 10:30:22.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+06-Jan-2021 10:30:22.320 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 8.5\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jre1.8.0_271\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Geth;C:\Program Files\PuTTY\;H:\flutter\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\prave\AppData\Local\Microsoft\WindowsApps;C:\Users\prave\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\prave\AppData\Roaming\npm;.]
+06-Jan-2021 10:30:22.694 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+06-Jan-2021 10:30:23.169 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+06-Jan-2021 10:30:23.331 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2584 ms
+06-Jan-2021 10:30:23.561 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jan-2021 10:30:23.645 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.60
+06-Jan-2021 10:30:26.296 WARNING [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [user] used in an <auth-constraint> without being defined in a <security-role>
+06-Jan-2021 10:30:26.298 WARNING [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [admin] used in an <auth-constraint> without being defined in a <security-role>
+06-Jan-2021 10:30:26.383 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2021 10:30:26.488 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+06-Jan-2021 10:30:26.510 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3172 ms
+06-Jan-2021 10:31:28.697 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-80"]
+06-Jan-2021 10:31:29.067 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Jan-2021 10:31:29.103 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-80"]
+06-Jan-2021 10:31:29.107 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-80"]
+06-Jan-2021 10:31:36.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.60
+06-Jan-2021 10:31:36.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 12 2020 17:31:55 UTC
+06-Jan-2021 10:31:36.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.60.0
+06-Jan-2021 10:31:36.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+06-Jan-2021 10:31:36.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Jan-2021 10:31:36.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jan-2021 10:31:36.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_271
+06-Jan-2021 10:31:36.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_271-b09
+06-Jan-2021 10:31:36.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Jan-2021 10:31:36.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 10:31:36.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 10:31:36.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 10:31:36.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 10:31:36.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 8.5\temp
+06-Jan-2021 10:31:36.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jan-2021 10:31:36.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 8.5\conf\logging.properties
+06-Jan-2021 10:31:36.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.auth.login.config=C:\Program Files\Apache Software Foundation\Tomcat 8.5\conf\jaas.conf
+06-Jan-2021 10:31:36.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+06-Jan-2021 10:31:36.341 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+06-Jan-2021 10:31:36.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+06-Jan-2021 10:31:36.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+06-Jan-2021 10:31:36.343 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 8.5\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jre1.8.0_271\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Geth;C:\Program Files\PuTTY\;H:\flutter\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\prave\AppData\Local\Microsoft\WindowsApps;C:\Users\prave\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\prave\AppData\Roaming\npm;.]
+06-Jan-2021 10:31:36.720 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+06-Jan-2021 10:31:37.766 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+06-Jan-2021 10:31:37.819 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 4302 ms
+06-Jan-2021 10:31:37.936 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jan-2021 10:31:37.937 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.60
+06-Jan-2021 10:31:42.018 WARNING [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [user] used in an <auth-constraint> without being defined in a <security-role>
+06-Jan-2021 10:31:42.020 WARNING [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [admin] used in an <auth-constraint> without being defined in a <security-role>
+06-Jan-2021 10:31:42.122 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2021 10:31:42.235 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+06-Jan-2021 10:31:42.253 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4420 ms
+06-Jan-2021 10:32:02.587 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-80"]
+06-Jan-2021 10:32:04.446 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Jan-2021 10:32:04.512 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-80"]
+06-Jan-2021 10:32:04.522 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-80"]
+06-Jan-2021 10:32:12.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.60
+06-Jan-2021 10:32:12.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 12 2020 17:31:55 UTC
+06-Jan-2021 10:32:12.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.60.0
+06-Jan-2021 10:32:12.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+06-Jan-2021 10:32:12.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Jan-2021 10:32:12.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jan-2021 10:32:12.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_271
+06-Jan-2021 10:32:12.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_271-b09
+06-Jan-2021 10:32:12.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Jan-2021 10:32:12.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 10:32:12.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 10:32:12.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 10:32:12.021 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 10:32:12.021 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 8.5\temp
+06-Jan-2021 10:32:12.021 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jan-2021 10:32:12.021 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 8.5\conf\logging.properties
+06-Jan-2021 10:32:12.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.auth.login.config=C:\Program Files\Apache Software Foundation\Tomcat 8.5\conf\jaas.conf
+06-Jan-2021 10:32:12.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+06-Jan-2021 10:32:12.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+06-Jan-2021 10:32:12.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+06-Jan-2021 10:32:12.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+06-Jan-2021 10:32:12.033 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 8.5\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jre1.8.0_271\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Geth;C:\Program Files\PuTTY\;H:\flutter\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\prave\AppData\Local\Microsoft\WindowsApps;C:\Users\prave\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\prave\AppData\Roaming\npm;.]
+06-Jan-2021 10:32:12.785 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+06-Jan-2021 10:32:13.253 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+06-Jan-2021 10:32:13.785 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3837 ms
+06-Jan-2021 10:32:13.872 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jan-2021 10:32:13.875 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.60
+06-Jan-2021 10:32:16.673 WARNING [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [user] used in an <auth-constraint> without being defined in a <security-role>
+06-Jan-2021 10:32:16.674 WARNING [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [admin] used in an <auth-constraint> without being defined in a <security-role>
+06-Jan-2021 10:32:16.729 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2021 10:32:16.832 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+06-Jan-2021 10:32:16.848 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3057 ms
+06-Jan-2021 10:32:56.815 WARNING [http-nio-80-exec-2] org.apache.catalina.realm.JAASRealm.authenticate Login exception authenticating username [user1]
+	javax.security.auth.login.LoginException: Login Failure: all modules ignored
+		at javax.security.auth.login.LoginContext.invoke(Unknown Source)
+		at javax.security.auth.login.LoginContext.access$000(Unknown Source)
+		at javax.security.auth.login.LoginContext$4.run(Unknown Source)
+		at javax.security.auth.login.LoginContext$4.run(Unknown Source)
+		at java.security.AccessController.doPrivileged(Native Method)
+		at javax.security.auth.login.LoginContext.invokePriv(Unknown Source)
+		at javax.security.auth.login.LoginContext.login(Unknown Source)
+		at org.apache.catalina.realm.JAASRealm.authenticate(JAASRealm.java:428)
+		at org.apache.catalina.realm.JAASRealm.authenticate(JAASRealm.java:342)
+		at org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate(FormAuthenticator.java:244)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:634)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+06-Jan-2021 12:02:39.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.60
+06-Jan-2021 12:02:39.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 12 2020 17:31:55 UTC
+06-Jan-2021 12:02:39.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.60.0
+06-Jan-2021 12:02:39.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+06-Jan-2021 12:02:39.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Jan-2021 12:02:39.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jan-2021 12:02:39.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_271
+06-Jan-2021 12:02:39.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_271-b09
+06-Jan-2021 12:02:39.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Jan-2021 12:02:39.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 12:02:39.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 12:02:39.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 12:02:39.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 12:02:39.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 8.5\temp
+06-Jan-2021 12:02:39.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jan-2021 12:02:39.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 8.5\conf\logging.properties
+06-Jan-2021 12:02:39.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.auth.login.config=C:\Program Files\Apache Software Foundation\Tomcat 8.5\conf\jaas.conf
+06-Jan-2021 12:02:39.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+06-Jan-2021 12:02:39.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+06-Jan-2021 12:02:39.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+06-Jan-2021 12:02:39.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+06-Jan-2021 12:02:39.229 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 8.5\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jre1.8.0_271\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Geth;C:\Program Files\PuTTY\;H:\flutter\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\prave\AppData\Local\Microsoft\WindowsApps;C:\Users\prave\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\prave\AppData\Roaming\npm;.]
+06-Jan-2021 12:02:40.157 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+06-Jan-2021 12:02:40.602 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+06-Jan-2021 12:02:40.619 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2137 ms
+06-Jan-2021 12:02:40.666 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jan-2021 12:02:40.666 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.60
+06-Jan-2021 12:02:42.117 WARNING [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [user] used in an <auth-constraint> without being defined in a <security-role>
+06-Jan-2021 12:02:42.118 WARNING [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [admin] used in an <auth-constraint> without being defined in a <security-role>
+06-Jan-2021 12:02:42.176 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2021 12:02:42.251 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+06-Jan-2021 12:02:42.263 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1643 ms
+06-Jan-2021 12:03:07.563 WARNING [http-nio-80-exec-7] org.apache.catalina.realm.JAASRealm.authenticate Login exception authenticating username [user2]
+	javax.security.auth.login.LoginException: Login Failure: all modules ignored
+		at javax.security.auth.login.LoginContext.invoke(Unknown Source)
+		at javax.security.auth.login.LoginContext.access$000(Unknown Source)
+		at javax.security.auth.login.LoginContext$4.run(Unknown Source)
+		at javax.security.auth.login.LoginContext$4.run(Unknown Source)
+		at java.security.AccessController.doPrivileged(Native Method)
+		at javax.security.auth.login.LoginContext.invokePriv(Unknown Source)
+		at javax.security.auth.login.LoginContext.login(Unknown Source)
+		at org.apache.catalina.realm.JAASRealm.authenticate(JAASRealm.java:428)
+		at org.apache.catalina.realm.JAASRealm.authenticate(JAASRealm.java:342)
+		at org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate(FormAuthenticator.java:244)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:634)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+06-Jan-2021 12:21:10.955 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-80"]
+06-Jan-2021 12:21:11.187 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Jan-2021 12:21:11.246 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-80"]
+06-Jan-2021 12:21:11.255 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-80"]
+06-Jan-2021 12:21:19.323 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.60
+06-Jan-2021 12:21:19.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 12 2020 17:31:55 UTC
+06-Jan-2021 12:21:19.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.60.0
+06-Jan-2021 12:21:19.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+06-Jan-2021 12:21:19.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Jan-2021 12:21:19.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jan-2021 12:21:19.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_271
+06-Jan-2021 12:21:19.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_271-b09
+06-Jan-2021 12:21:19.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Jan-2021 12:21:19.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 12:21:19.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 12:21:19.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 12:21:19.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 12:21:19.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 8.5\temp
+06-Jan-2021 12:21:19.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jan-2021 12:21:19.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 8.5\conf\logging.properties
+06-Jan-2021 12:21:19.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.auth.login.config=C:\Program Files\Apache Software Foundation\Tomcat 8.5\conf\jaas.conf
+06-Jan-2021 12:21:19.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+06-Jan-2021 12:21:19.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+06-Jan-2021 12:21:19.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+06-Jan-2021 12:21:19.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+06-Jan-2021 12:21:19.333 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 8.5\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jre1.8.0_271\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Geth;C:\Program Files\PuTTY\;H:\flutter\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\prave\AppData\Local\Microsoft\WindowsApps;C:\Users\prave\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\prave\AppData\Roaming\npm;.]
+06-Jan-2021 12:21:19.663 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+06-Jan-2021 12:21:20.008 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+06-Jan-2021 12:21:20.058 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1553 ms
+06-Jan-2021 12:21:20.120 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jan-2021 12:21:20.123 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.60
+06-Jan-2021 12:21:21.116 WARNING [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [user] used in an <auth-constraint> without being defined in a <security-role>
+06-Jan-2021 12:21:21.116 WARNING [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [admin] used in an <auth-constraint> without being defined in a <security-role>
+06-Jan-2021 12:21:21.167 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2021 12:21:21.240 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+06-Jan-2021 12:21:21.250 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1190 ms
+06-Jan-2021 12:21:45.418 WARNING [http-nio-80-exec-3] org.apache.catalina.realm.JAASRealm.authenticate Login exception authenticating username [user1]
+	javax.security.auth.login.LoginException: Login Failure: all modules ignored
+		at javax.security.auth.login.LoginContext.invoke(Unknown Source)
+		at javax.security.auth.login.LoginContext.access$000(Unknown Source)
+		at javax.security.auth.login.LoginContext$4.run(Unknown Source)
+		at javax.security.auth.login.LoginContext$4.run(Unknown Source)
+		at java.security.AccessController.doPrivileged(Native Method)
+		at javax.security.auth.login.LoginContext.invokePriv(Unknown Source)
+		at javax.security.auth.login.LoginContext.login(Unknown Source)
+		at org.apache.catalina.realm.JAASRealm.authenticate(JAASRealm.java:428)
+		at org.apache.catalina.realm.JAASRealm.authenticate(JAASRealm.java:342)
+		at org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate(FormAuthenticator.java:244)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:634)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+06-Jan-2021 14:26:32.057 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-80"]
+06-Jan-2021 14:26:42.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.60
+06-Jan-2021 14:26:42.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 12 2020 17:31:55 UTC
+06-Jan-2021 14:26:42.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.60.0
+06-Jan-2021 14:26:42.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+06-Jan-2021 14:26:42.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Jan-2021 14:26:42.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jan-2021 14:26:42.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_271
+06-Jan-2021 14:26:42.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_271-b09
+06-Jan-2021 14:26:42.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Jan-2021 14:26:42.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 14:26:42.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 14:26:42.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 14:26:42.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 8.5
+06-Jan-2021 14:26:42.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 8.5\temp
+06-Jan-2021 14:26:42.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jan-2021 14:26:42.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 8.5\conf\logging.properties
+06-Jan-2021 14:26:42.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.auth.login.config=C:\Program Files\Apache Software Foundation\Tomcat 8.5\conf\jaas.conf
+06-Jan-2021 14:26:42.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+06-Jan-2021 14:26:42.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+06-Jan-2021 14:26:42.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+06-Jan-2021 14:26:42.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+06-Jan-2021 14:26:42.305 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 8.5\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jre1.8.0_271\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Geth;C:\Program Files\PuTTY\;H:\flutter\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\prave\AppData\Local\Microsoft\WindowsApps;C:\Users\prave\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\prave\AppData\Roaming\npm;.]
+06-Jan-2021 14:26:42.692 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+06-Jan-2021 14:26:43.028 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+06-Jan-2021 14:26:43.043 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1353 ms
+06-Jan-2021 14:26:43.103 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jan-2021 14:26:43.104 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.60
+06-Jan-2021 14:26:43.935 WARNING [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [user] used in an <auth-constraint> without being defined in a <security-role>
+06-Jan-2021 14:26:43.936 WARNING [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [admin] used in an <auth-constraint> without being defined in a <security-role>
+06-Jan-2021 14:26:43.981 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2021 14:26:44.045 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+06-Jan-2021 14:26:44.054 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1009 ms

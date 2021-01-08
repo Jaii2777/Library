@@ -1,0 +1,9 @@
+<---  applogin ---->
+		<span>If new user  Enter Your details</span>
+		<form>
+			<p>New Username:<input type="text" name="newuser"/></p>
+			<p>password:<input type="text" name="pass"/></p>
+			<input type="submit" value="Request"/>
+		</form>
+		
+		--->
